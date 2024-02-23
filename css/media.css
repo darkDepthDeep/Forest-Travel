@@ -1,0 +1,695 @@
+/* Tablet */
+
+@media (max-width: 1199px) {
+    .container {
+        width: 900px;
+    }
+
+    .header {
+        height: 591px;
+    }
+
+    .header-top,
+    .header-content {
+        width: 900px;
+
+        padding: 0 15px;
+    }
+
+    .header-top {
+        width: 100%;
+
+        padding: 0 15px;
+    }
+
+    .header-content {
+        padding-top: 5px;
+    }
+
+    .header-nav-button {
+        display: block;
+    }
+
+    .header-nav-list {
+        display: none;
+    }
+
+    .header-title {
+        font-size: 52px;
+
+        margin-bottom: 27px;
+    }
+
+    .header-scroll {
+        font-size: 0;
+    }
+
+    /* Main */
+
+    .main {
+        padding: 80px 0;
+    }
+
+    .main-row {
+        margin-bottom: 80px;
+    }
+
+    .main-content {
+        width: 422px;
+    }
+
+    .main-content.block-width {
+        width: 420px;
+    }
+
+    .main-img {
+        width: 420px;
+    }
+
+    .main-header {
+        font-size: 50px;
+        line-height: 1;
+    }
+
+    .main-content-text {
+        font-size: 18px;
+
+        margin-bottom: 20px;
+    }
+
+    .main-content-text p {
+        line-height: 1.62;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 50px 0;
+    }
+
+    .footer-widget-services {
+        display: none;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-logo .logo {
+        font-size: 30px;
+    }
+
+    .footer-copyright p {
+        width: 240px;
+
+        font-size: 14px;
+    }
+
+    .footer-widgets-wrapper {
+        padding-top: 0;
+    }
+
+    .footer-widget:not(:last-child) {
+        margin-right: 55px;
+    }
+
+    .footer-widget-title {
+        margin-bottom: 20px;
+    }
+
+    /* Inner page Tours */
+
+    .inner-page {
+        padding: 60px 0;
+    }
+
+    .inner-page-tours-header {
+        margin-bottom: 40px;
+    }
+
+    .standart-card {
+        width: 420px;
+    }
+
+    .card-title-wrapper {
+        height: 60px;
+
+        padding: 0 20px;
+    }
+
+    .card-title {
+        font-size: 24px;
+    }
+
+    .wide-card {
+        width: 495px;
+    }
+
+    .high-card {
+        width: 345px;
+    }
+
+    /* Tracking */
+
+    .article-page-article {
+        width: 570px;
+    }
+
+    .article-page-article h1 {
+        font-size: 50px;
+    }
+
+    .article-page-nav-list {
+        font-size: 18px;
+    }
+
+    .article-page-article {
+        font-size: 18px;
+    }
+
+    .article-page-article h1 {
+        margin-bottom: 20px;
+    }
+
+    .article-page-article img {
+        margin: 30px 0;
+    }
+
+    /* Contacts */
+
+    .contact-row {
+        flex-direction: column;
+        gap: 40px 0;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .contact-block+.contact-block {
+        margin-top: 0;
+    }
+
+    .contact-block:last-child .contact-block-body {
+        width: 420px;
+        height: 310px;
+    }
+
+    .contact-block-title {
+        font-size: 24px;
+
+        margin-bottom: 25px;
+    }
+
+    .contact-block-body {
+        font-size: 18px;
+    }
+
+    .contact-block-title {
+        font-size: 24px;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 899px) {
+    .container {
+        width: 600px;
+    }
+
+    .header-content {
+        width: 600px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .header-content {
+        padding: 0 0 23px;
+    }
+
+    .header-title {
+        font-size: 42px;
+
+        margin-bottom: 19px;
+    }
+
+    .header-content p {
+        font-size: 20px;
+    }
+
+    .header-scroll::after {
+        transform: translate(-74%);
+    }
+
+    /* Main */
+    .transfer-1,
+    .transfer-2 {
+        display: block;
+    }
+
+    .main {
+        padding: 60px 0;
+    }
+
+    .main-row {
+        flex-direction: row-reverse;
+
+        gap: 0 30px;
+
+        margin-bottom: 60px;
+    }
+
+    .main-content {
+        width: auto;
+    }
+
+    .main-header {
+        font-size: 42px;
+    }
+
+    .main-content-text {
+        font-size: 16px;
+    }
+
+    a.button {
+        font-size: 18px;
+        line-height: 46px;
+
+        height: 46px;
+
+        padding: 0 36px;
+    }
+
+    .main-img {
+        flex-shrink: 0;
+
+        width: 170px;
+        height: 393px;
+    }
+
+    .main-img img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 40px 0;
+    }
+
+    .footer-row {
+        flex-wrap: wrap;
+    }
+
+    .footer-copyright {
+        width: 100%;
+
+        order: 1;
+    }
+
+    .footer-copyright p {
+        width: 100%;
+    }
+
+    .footer-widgets-wrapper {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .footer-widgets-wrapper>* {
+        width: calc(50% - 15px)
+    }
+
+    .footer-widget:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    /* Inner page Tours */
+
+    .inner-page {
+        padding: 40px 0;
+    }
+
+    .cards-row {
+        flex-direction: column;
+        gap: 30px 0;
+    }
+
+    .standart-card,
+    .wide-card,
+    .high-card {
+        width: 570px;
+    }
+
+    /* Tracking */
+
+    .article-page-nav-title {
+        margin-bottom: 20px;
+    }
+
+    .row-article-page {
+        flex-direction: column-reverse;
+        gap: 40px 0;
+    }
+
+    .article-page-nav {
+        width: 100%;
+    }
+
+    .article-page-article {
+        font-size: 16px;
+    }
+
+    .article-page-article h1 {
+        font-size: 42px;
+    }
+
+    .article-page-article img {
+        margin: 20px 0;
+    }
+
+    .article-page-article h2,
+    .article-page-article h3,
+    .article-page-article h4,
+    .article-page-article h5,
+    .article-page-article h6 {
+        margin-bottom: 18px;
+    }
+
+    /* Contacts */
+
+    .contacts-header {
+        margin-bottom: 30px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 40px 0;
+    }
+
+    .contact-block:last-child .contact-block-body {
+        width: 570px;
+        height: 310px;
+    }
+
+    .form {
+        padding: 30px;
+    }
+
+    .form-group:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    input.button {
+        font-size: 18px;
+        line-height: 46px;
+
+        height: 46px;
+
+        padding: 0 30px;
+    }
+}
+
+/* Mobile XS*/
+
+@media (max-width: 599px) {
+    .container {
+        width: 320px;
+    }
+
+    .header-content {
+        width: 320px;
+    }
+
+    .header-content {
+        padding-bottom: 14px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .header-title {
+        font-size: 32px;
+
+        margin-bottom: 10px;
+    }
+
+    .header-content p {
+        font-size: 18px;
+    }
+
+    .header-scroll::after {
+        transform: translate(-82%);
+    }
+
+    /* Main */
+    .transfer-2 {
+        display: none;
+    }
+
+    .main {
+        padding: 40px 0;
+    }
+
+    .main-row:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .main-row {
+        flex-direction: column-reverse;
+
+        margin-bottom: 40px;
+    }
+
+    .main-content.block-width {
+        width: auto;
+    }
+
+    .main-img {
+        width: auto;
+        height: 150px;
+
+        margin-bottom: 20px;
+    }
+
+    .main-header {
+        font-size: 34px;
+    }
+
+    /* Footer */
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-row {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        margin-bottom: 10px;
+    }
+
+    .footer-copyright {
+        padding: 0 20px;
+    }
+
+    .footer-widgets-wrapper {
+        flex-direction: column;
+        align-items: center;
+
+        margin-bottom: 40px;
+    }
+
+    .footer-widget:not(:last-child) {
+        margin: 0 0 40px;
+    }
+
+    .footer-widget-services {
+        display: block;
+    }
+
+    .footer-widget-contacts p {
+        margin-bottom: 10px;
+    }
+
+    .footer-widgets-wrapper>* {
+        width: 100%;
+    }
+
+    .footer-widget {
+        font-size: 16px;
+    }
+
+    .footer-widget-title {
+        font-size: 20px;
+
+        margin-bottom: 10px;
+    }
+
+    .footer-widget-list {
+        margin-left: -2px;
+    }
+
+    .footer-widget-list li {
+        margin-bottom: 11px;
+    }
+
+    /* Inner page Tours */
+
+    .inner-page .main-header {
+        font-size: 28px;
+    }
+
+    .inner-page-tours-header {
+        margin-bottom: 30px;
+    }
+
+    .standart-card,
+    .wide-card,
+    .high-card {
+        width: 290px;
+    }
+
+    .cards-column>*:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .cards-wrapper,
+    .cards-row {
+        gap: 20px 0;
+    }
+
+    .card-title-wrapper {
+        height: 50px;
+
+        padding: 0 15px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    /* Tracking */
+
+    .row-article-page {
+        align-items: center;
+
+        gap: 20px 0;
+    }
+
+    .article-page-nav-title {
+        font-size: 22px;
+    }
+
+    .article-page-nav-title {
+        margin-bottom: 15px;
+    }
+
+    .article-page-article {
+        width: 100%;
+    }
+
+    .article-page-article h1 {
+        font-size: 28px;
+
+        margin-bottom: 10px;
+    }
+
+    .article-page-nav-list a {
+        padding: 6px 0;
+    }
+
+    .article-page-nav-list {
+        font-size: 16px;
+    }
+
+    .article-page-article h2,
+    .article-page-article h3,
+    .article-page-article h4 {
+        margin-top: 17px;
+    }
+
+    /* Contacts */
+
+    .contact-block:last-child .contact-block-body {
+        width: 290px;
+        height: 157px;
+    }
+
+    .contact-block-title {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+
+    .contact-block-body {
+        font-size: 16px;
+    }
+
+    .contact-list {
+        line-height: 1.3;
+    }
+
+    .contact-list li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .form {
+        padding: 20px 15px 30px;
+    }
+
+    .form-title {
+        font-size: 24px;
+    }
+
+    .form-group {
+        font-size: 16px;
+
+        margin-bottom: 20px;
+    }
+
+    .form-group-row {
+        flex-direction: column;
+        gap: 10px 0;
+    }
+
+    .form-group-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .radio-row {
+        margin-bottom: 10px;
+    }
+
+    .form-group:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .form-group:nth-of-type(3) {
+        padding: 0 5px 0 0;
+    }
+
+    input.button {
+        font-size: 18px;
+        line-height: 46px;
+
+        height: 46px;
+
+        padding: 0 35px;
+    }
+
+}

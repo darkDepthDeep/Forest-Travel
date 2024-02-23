@@ -1,0 +1,69 @@
+.footer {
+    background-color: #265847;
+    color: #fff;
+
+    padding: 70px 0 94px;
+
+    /* sticky footer - для того чтобы прибить подвал сайта к низу страницы */
+    margin-top: auto;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-widgets-wrapper {
+    display: flex;
+    padding-top: 10px;
+}
+
+.footer-copyright {
+    width: 270px;
+}
+
+.footer-logo {
+    margin-bottom: 29px;
+}
+
+.footer-copyright p {
+    line-height: 1.6;
+}
+
+.footer-widget {
+    font-size: 18px;
+}
+
+.footer-widget-info {
+    width: 170px;
+}
+
+.footer-widget-services,
+.footer-widget-contacts {
+    width: 270px;
+}
+
+.footer-widget:not(:last-child) {
+    margin-right: 30px;
+}
+
+.footer-widget-title {
+    font-size: 24px;
+    font-weight: 700;
+
+    margin-bottom: 30px;
+}
+
+.footer-widget-contacts p,
+.footer-widget-list li {
+    margin-bottom: 15px;
+}
+
+.footer-widget-contacts>*:last-child,
+.footer-widget-list>*:last-child {
+    margin-bottom: 0;
+}

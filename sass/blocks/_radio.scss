@@ -1,0 +1,72 @@
+/* Radio */
+
+.radio-row {
+    display: flex;
+    align-items: flex-start;
+
+    margin-bottom: 21px;
+}
+
+.radio-row:last-child {
+    margin-bottom: 0px;
+}
+
+.real-radio {
+    position: absolute;
+
+    opacity: 0;
+
+    width: 0;
+    height: 0;
+    z-index: -1;
+
+    /* appearance: none; скрывает элемент, поддерживается новыми браузерами */
+    appearance: none;
+}
+
+.custom-radio {
+    position: relative;
+
+    display: inline-block;
+
+    flex-shrink: 0;
+
+    vertical-align: bottom;
+    width: 20px;
+    height: 20px;
+
+    background-color: #EEE;
+    border: 1px solid #C0C0C0;
+    border-radius: 50%;
+
+    margin-right: 15px;
+}
+
+.real-radio:focus+.custom-radio {
+    box-shadow: 0 0 0 2px rgb(42, 42, 42);
+}
+
+.custom-radio::before {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+
+    content: '';
+
+    display: block;
+
+    width: 12px;
+    height: 12px;
+
+    background-color: #2AB698;
+    border-radius: 50%;
+
+    transition: transform 0.2s ease-in;
+
+}
+
+.real-radio:checked+.custom-radio::before {
+    transform: translate(-50%, -50%) scale(1);
+}
